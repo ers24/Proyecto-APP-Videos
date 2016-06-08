@@ -1,0 +1,151 @@
+html 
+{
+	font-family: helvetica, sans-serif, arial;
+}
+body {overflow:scroll;}
+* {padding: 0; margin: 0;}
+#contenedor 
+{
+	margin-right:auto;
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:auto;
+	padding:0;
+	width: 1000px;
+
+
+}
+.lateral 
+{
+	font-size: 12px;
+	position: absolute;
+	left:0;
+	bottom:0;
+	top:15%;
+	width: 35%;
+	background: mediumseagreen;
+	padding: 2px;
+	overflow: auto;
+
+	box-sizing:border-box; 
+	-moz-box-sizing:border-box; /* Firefox */ 
+	-webkit-box-sizing:border-box;
+}
+
+.lateral_header 
+{
+	margin:0;
+	padding-bottom:2em;
+	display: block;
+	border-bottom: 1rem solid rgba(0,0,0,.40);
+	color: white;
+
+}
+
+
+.lateral_body 
+{
+	font-size: 1em;
+	padding: 0;
+	width: 70%;
+	height: 50%;
+	
+	overflow: auto;
+
+}
+.lateral_body:first-line 
+{
+	text-transform: bold;
+}
+
+.lateral_body:first-letter
+{
+	font-size: 1em;
+	color: red;
+}
+
+.lateral_footer 
+{
+	
+	
+	margin-top: 3em;
+	font-size: 1em;
+	width: 100%;
+	overflow: auto;
+	
+	
+}
+
+.circulo 
+{
+	margin: 0;
+	padding:0;
+	width:50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 2em;
+	overflow: hidden;
+
+
+}
+.circulo_imagen 
+{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+.nombre
+{
+	font-size: 10px;
+}
+
+.circulo, .nombre 
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+/* Contenido */
+
+.contenido 
+{
+	position: absolute;
+	right: 0;
+	top:15%;
+	bottom:0;
+	width: 60%;
+	overflow: auto;
+}
+.contenido_articulo
+{
+	
+	width: 80%;
+	font-size: 1em;
+	margin-bottom: 2em;
+}
+
+.contenido_articulo .img 
+{
+
+	border-radius:100% ;
+	margin: 1px;
+}
+
+
+/* navegacion */
+
+.nav1
+{
+	margin: 1px;
+	background-color: yellow;
+	border-radius: 4px;
+	border:1px solid yellow;
+	position: absolute;
+	top: 2%;
+	bottom: 88%;
+	left:3%;
+	right: 3%;
+}
